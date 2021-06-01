@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }else if(wordClicked == "bye"){
             if(item.getItemId()==0){
-                tvTranslatedText2.setText("Hello");
+                tvTranslatedText2.setText("Bye");
                 Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
                 return true;
             }else if(item.getItemId()==1){
